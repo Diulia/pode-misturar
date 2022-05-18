@@ -135,10 +135,10 @@ function handleSubmit(e){
         })
     
     if (testeP2.canMix === true){
-        resultado.style.backgroundColor = '#ffff1a';
+        resultado.style.backgroundColor = '#ffff66';
         msg.style.color = '#000000'
     } else{
-         resultado.style.backgroundColor = '#de4251';
+         resultado.style.backgroundColor = '#ff0000';
          msg.style.color = '#fff'
     }
         msg.innerHTML= testeP2.message;
